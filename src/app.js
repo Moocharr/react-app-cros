@@ -9,7 +9,7 @@ function App(props) {
   const login = ()=>{
     axios.request({
       url:'/adm/login',
-      method:'post',
+      method:'get',
       params:{
         id:id,
         pswd:pswd
