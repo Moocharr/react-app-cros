@@ -20,5 +20,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 这样做后，发送的请求在浏览器只会显示localhost:3000，即react-app配置的nodejs服务器
 应该是nodejs服务器转发了请求，去请求真正的服务器
 
+### `更新补充`
+
+搭建了本地的go服务器接口。尝试使用go接收json数据，结果失败。花了很久没找到解决办法。
+最终把接口改为了get（因为仅供测试不考虑安全性）。
+
 更详细的proxy配置可以参考博客：
 https://www.cnblogs.com/Netsharp/p/11506893.html
